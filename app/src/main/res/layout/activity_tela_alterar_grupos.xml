@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="12dp"
+    tools:context=".TelaAlterarGrupos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo3"
+                android:layout_marginTop="10dp"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="@string/str_alterar"
+                    android:textAlignment="center"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_texto"
+
+                    />
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:src="@drawable/iconegrupo" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_nomegrupo"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_nomegrupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="85dp"
+                android:inputType="text"/>
+
+            <FrameLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn_alterar"
+                    android:layout_gravity="start"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_alterar"
+                    android:layout_marginLeft="20dp"
+                    android:drawableEnd="@drawable/iconealterar"
+
+
+
+                    />
+
+                <Button
+                    android:id="@+id/btn_excluir"
+                    android:layout_gravity="end"
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_excluir"
+                    android:drawableEnd="@drawable/iconelixeira"
+                    android:layout_marginRight="25dp"
+
+
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

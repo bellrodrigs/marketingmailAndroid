@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaAlterar"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="12dp"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo3"
+                android:layout_marginTop="10dp"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_alterar"
+                    android:textAlignment="center"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_texto"
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="180dp"
+                    android:src="@drawable/troca" />
+
+            </RelativeLayout>
+            <!--_____________NOME_______________-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_nome"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_nomecad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+                android:maxLength="30"
+
+
+                />
+
+            <!--__________TELEFONE___________-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_telefone"
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/txt_telefone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="10dp"
+                android:inputType="number"
+                android:maxLength="9"
+
+                />
+            <!--_________________CIDADE__________-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cidade"
+
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+
+
+                />
+
+            <EditText
+                android:id="@+id/txt_cidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="10dp"
+                android:inputType="text"
+
+                />
+            <!--______________EMAIL_________-->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_email"
+
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+                />
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+
+                />
+
+            <!--______________CELULAR_________-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_celular"
+
+                android:layout_marginBottom="10dp"
+                android:textSize="18sp"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_celular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cor_editartexto"
+
+                android:maxLength="9"
+                android:inputType="number" />
+            <!--______________GRUPO_________-->
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/str_grupo"
+                    android:textSize="18sp"
+
+                    />
+
+
+                <Spinner
+
+                    android:layout_marginRight="55dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:popupBackground="@color/cor_texto"
+
+                    />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_alterar"
+                android:layout_gravity="start"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_alterar"
+                android:layout_marginLeft="20dp"
+                android:drawableEnd="@drawable/iconealterar"
+
+
+
+                />
+
+            <Button
+                android:id="@+id/btn_excluir"
+                android:layout_gravity="end"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_excluir"
+                android:drawableEnd="@drawable/iconelixeira"
+                android:layout_marginRight="25dp"
+
+
+                />
+
+        </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

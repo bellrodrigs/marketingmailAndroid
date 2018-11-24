@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="br.com.marketingmail.activity">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- Icone alterado -->
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity" />
+
+        <!-- tela splash alterada -->
+
+        <activity android:name="br.com.marketingmail.splash.TelaSplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TelaTermo" />
+        <activity android:name=".TelaEscolha" />
+        <activity android:name=".TelaAjuda" />
+        <activity android:name="br.com.marketingmail.splash.TelaProntoSplash" />
+        <activity
+            android:name=".TelaCadastro"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".TelaEmail"
+
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".TelaGrupos"
+            android:label="@string/title_activity_tela_grupos"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".TelaConsulta" />
+
+        <activity
+            android:name=".TelaAlterar"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity android:name=".TelaAlterarGrupos"
+            android:windowSoftInputMode="stateHidden"
+            />
+
+        <activity android:name=".TelaConsultarGrupos"
+            android:windowSoftInputMode="stateHidden" >
+
+        </activity>
+    </application>
+
+</manifest>

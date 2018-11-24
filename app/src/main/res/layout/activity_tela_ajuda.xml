@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaTermo"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="16dp"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo3"
+            android:layout_marginTop="10dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+
+                >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ajuda2"
+                android:textAlignment="center"
+                android:textColor="@color/cor_texto"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="7dp"
+
+                />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/question"
+                    android:layout_gravity="end"
+                    android:layout_marginStart="210dp"
+
+
+                    />
+        </RelativeLayout>
+
+
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/str_ajudaintro"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:layout_marginBottom="35dp"
+            android:textSize="16sp"
+            />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/str_ajudacontato"
+               android:textStyle="bold"
+               android:textSize="16sp"
+               android:layout_marginBottom="10dp"
+               android:drawableEnd="@drawable/ajudaquestao"
+              android:layout_marginEnd="155dp"
+               />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_contato"
+                android:layout_marginBottom="10dp"
+                android:textSize="13sp"
+                android:drawableEnd="@drawable/ajudacontato"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ajudagrupos"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ajudaquestao"
+                android:layout_marginEnd="175dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_grupos"
+                android:layout_marginBottom="10dp"
+                android:textSize="13sp"
+                android:drawableEnd="@drawable/ajudagrupo"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ajudaemail"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ajudaquestao"
+                android:layout_marginEnd="185dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_email"
+                android:layout_marginBottom="10dp"
+                android:textSize="13sp"
+                android:drawableEnd="@drawable/ajudaemail"
+
+                />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_ajudagerenciar"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textSize="16sp"
+                android:drawableEnd="@drawable/ajudaquestao"
+                android:layout_marginEnd="95dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/texto_gerenciar"
+                android:layout_marginBottom="10dp"
+                android:textSize="13sp"
+                android:drawableEnd="@drawable/ajudagerenciar"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

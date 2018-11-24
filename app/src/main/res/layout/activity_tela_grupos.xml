@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="12dp"
+    tools:context=".TelaGrupos">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo3"
+                android:layout_marginTop="10dp"
+
+
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                >
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="35dp"
+                    android:text="@string/str_novogrupo"
+                    android:textAlignment="center"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/cor_texto"
+
+                    />
+
+
+                <ImageButton
+                    android:id="@+id/btn_gerenciar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/settings"
+                    android:layout_marginTop="8dp"
+                    android:background="?android:attr/selectableItemBackgroundBorderless"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="250dp"
+                    android:src="@drawable/iconegrupo" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_nomegrupo"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"
+
+                />
+
+            <EditText
+                android:id="@+id/txt_nomegrupo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/cor_editartexto"
+                android:layout_marginBottom="85dp"
+                android:inputType="text"/>
+
+            <Button
+                android:id="@+id/btn_cadastrargrupo"
+
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:text="@string/str_cadastrargrupo"
+                android:drawableEnd="@drawable/iconesavar"
+                android:layout_gravity="center"
+                android:drawablePadding="8dp"
+
+
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

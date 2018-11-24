@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#ce3e53</color>
+
+
+
+    <color name="cor_termosdeuso">#fcfafa</color>
+    <color name="cor_termosdeusotexto">#000000</color>
+    <color name="cor_editartexto">#FFFFFF</color>
+
+
+    <color name="cor_texto">#ffffff</color>
+    <color name="cor_texto2">#205f69</color>
+    <color name="cor_checkbox">#FF0000</color>
+    <color name="tela_splash">#000000</color>
+
+    <color name="fundo_contatos">#deb4b4</color>
+
+</resources>

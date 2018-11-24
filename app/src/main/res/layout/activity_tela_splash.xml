@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.marketingmail.splash.TelaSplash"
+    android:orientation="vertical"
+
+    android:background="@color/tela_splash"
+    android:padding="12dp"
+    >
+<!--_______________ Imagem MM Marketimg Mail____________-->
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/logo2"
+    android:layout_gravity="center"
+    android:layout_marginTop="140dp"
+    android:layout_marginBottom="70dp" />
+
+    <!--___________Imagem Marketimg Mail_______________-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo3"
+        android:layout_gravity="center"
+
+        />
+
+
+</LinearLayout>

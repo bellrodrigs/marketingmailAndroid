@@ -1,0 +1,165 @@
+<resources>
+    <string name="app_name">MarketingMail</string>
+
+
+    <!--############################ TELA PRINCIPAL ##########################################-->
+
+    <string name="str_slogan">MarketingMail é simples assim.</string>
+
+    <string name="str_comeco">Bem vindo(a) ao MarketingMail!
+        \n\nNós simplificamos a sua maneira de enviar e-mails para marketing, aqui você terá o controle
+        de todos os seus contatos e ainda terá a possibilidade de anexar imagens informativas do que desejar.
+        \n\n <b>Experimente, é gratuito!</b></string>
+
+    <string name="btn_entrar">Entrar</string>
+
+    <string name="str_direitos">MarketingMail © 2018 GranTech. Todos os direitos reservados.</string>
+
+
+    <!--######################### TELA TERMOS DE USO #####################################-->
+
+    <string name="str_utilizar">Ao utilizar esta plataforma, você estará concordando com
+    o seguinte termo de uso: </string>
+
+    <string name="str_concordo">Li, e concordo plenamente com os termos apresentados. </string>
+
+    <string name="btn_continuar">Continuar </string>
+
+    <string name="str_termodeuso">2.1	 Do envio:\n
+I-	Ao utilizar este software você estará concordando em disponibilizar endereços eletrônicos para uso comercial, com relação remetente - receptor.\n
+II-	Você estará concordando com a prática de e-mail marketing, ou seja, estará fornecendo um endereço eletrônico, onde o mesmo tem a possibilidade de ser repassado a terceiros fora do público-alvo.\n
+2.2	 Do e-mail:\n
+I-	A GranTech não se responsabiliza pelo conteúdo propagado via MarketingMail o usuário deve ter em mente, no que diz a temática das mensagens, que estará concordando em disponibilizar o conteúdo no âmbito da rede (internet).\n
+ II-O MarketingMail suporta anexos de imagens em até 600px.\n
+A extensão aceita pelo MarketingMail é apenas JPG.\n
+
+2.3	 Do usuário:\n
+I-	A empresa, grupo ou indivíduo que vier utilizar este software terá de ter plena consciência do uso adequado e ético dos e-mails enviados. A GranTech não tem compromisso com quaisquer danos a reputação ou a notabilidade da entidade em questão.\n
+II-	A empresa ou grupo também deverá ter total responsabilidade sobre a relação cliente-empresa. O MarketingMail poderá ser utilizado como um meio de comunicação entre as duas partes, entretanto, cabe a empresa usuária ter sua própria política de relacionamento adotada aos seus clientes.\n
+III-	A GranTech não apoia, em nenhuma circunstância, e-mails com códigos maliciosos  que venham prejudicar os destinatários.\n
+
+2.4	 Do contato:\n
+I.	A GranTech se preocupa com a integridade dos seus usuários, portanto, caso a prática se torne incomoda, o contato cadastrado, poderá cancelar o recebimento de mensagens de um e-mail específico, estando de acordo com a prática de out-put.\n
+II.	Caso o contato esteja em uma relação já estabelecida com uma empresa, onde prevaleça a finalidade de assegurar a execução de um contrato( ex:boletos, avisos e extratos) a prática de out-put poderá ser dispensada.\n
+    </string>
+
+
+    <!--############################## TELAS SPLASH #####################################-->
+
+    <string name="str_pronto">Tudo Pronto!</string>
+    <string name="str_podeusar">Você já pode usar seu </string>
+
+
+    <!--############################# TELA DE ESCOLHA ######################################-->
+
+    <string name="str_escolha">Suas atividades</string>
+    <string name="str_ajuda">Ajuda</string>
+
+    <string name="btn_cadastrargrupo">Cadastrar \nGrupo</string>
+    <string name="btn_cadastarcontato">Cadastrar \nContato</string>
+    <string name="btn_enviaremail">Enviar \nE-mail</string>
+    <string name="btn_gerenciar">Gerenciar \nContatos</string>
+    <string name="btn_gerenciargrupo">Gerenciar \nGrupos</string>
+
+    <!--########################## TELA CADASTRO, TELA CONSULTA_############################-->
+    <string name="str_novocontato">Novo Contato</string>
+
+
+    <string name="str_nome">Nome:</string>
+    <string name="str_id">Id:</string>
+
+    <string name="str_telefone">Telefone:</string>
+    <string name="str_cidade">Estado:</string>
+    <string name="str_email">E-mail:</string>
+    <string name="str_celular">Celular:</string>
+    <string name="str_grupo">Grupo:</string>
+    <string name="str_cadastrar">Cadastrar</string>
+    <string name="str_opcao">Selecione um contato para altera-lo ou exclui-lo</string>
+    <string name="str_gerenciar">Gerenciar Contatos</string>
+
+    <!--_########################## TELA DE ENVIAR EMAIL  ##################################-->
+
+    <string name="str_usaemail">Envio de E-Mail</string>
+
+    <string name="str_enviarpara">Enviar para:</string>
+
+    <string name="str_assunto">Assunto:</string>
+
+    <string name="str_mensagem">Mensagem:</string>
+
+    <string name="str_url">URL Imagem:</string>
+
+    <string name="str_imagem">Selecionar Imagem</string>
+
+    <string name="str_enviar">Enviar E-mail</string>
+
+    <string name="str_emailusuario">E-mail Usuário</string>
+
+    <string name="str_senhausuario">Senha Usuário</string>
+
+    <string name="str_switch1">Enviar para todos </string>
+
+    <string name="str_switch2">Enviar para grupo</string>
+
+
+    <!--############################# TELA DE GRUPOS ##################################-->
+
+    <string name="str_novogrupo">Novo Grupo</string>
+    <string name="str_nomegrupo">Nome do grupo desejado:</string>
+    <string name="str_cadastrargrupo">Cadastrar Grupo</string>
+
+    <!--######################### TELA DE ALTERAR/EXCLUIR ##############################-->
+
+    <string name="str_alterar">Alterar</string>
+    <string name="str_excluir">Excluir</string>
+
+    <string name="str_selecionargrupo">Selecione um grupo para alterar um nome ou exclui-lo</string>
+    <string name="str_gerenciargrupo">Gerenciar Grupos</string>
+
+
+
+
+    <!--############################### TELA DE AJUDA ####################################-->
+
+    <string name="str_ajuda2">Ajuda</string>
+    <string name="str_ajudaintro">Aqui se encontram possiveis dúvidas em relação ao uso da plataforma.</string>
+    <string name="str_ajudacontato">Sobre Contatos</string>
+    <string name="texto_contato">No MarketingMail você poderá registrar contatos de sua escolha
+    atrelados a grupos fornecidos previamente. Isto fornece mais facilidade para o envio de e-mail para grupos específicos,
+        que possuam diferentes interesses no conteúdo divulgado. \nO usuário poderá cadastrar seus contatos na opção
+        <b>"Cadastrar Contato".</b>
+    </string>
+
+    <string name="str_ajudagrupos">Sobre Grupos</string>
+    <string name="texto_grupos">O MarketingMail proporciona a organização aos contatos do usuário, assim
+    a composição dos contatos conta com a adição de grupos. Desta forma você poderá definir um público alvo para o envio de e-mail.
+        \nEx: Uma turma de alunos, um grupo fornecedores, clientes da empresa, entre outros…
+    O usuário poderá cadastrar seus grupos na opção <b>"Cadastrar Grupo"</b>.</string>
+
+    <string name="str_ajudaemail">Sobre E-mail</string>
+    <string name="texto_email">A proposta principal do MarketingMail é o envio de e-mail. O usuário conta com
+    o envio de e-mail indivídual, para seus  grupos  ou para todos os seus contatos já cadastrados.
+        O envio de e-mail esta disponível na opção <b>"Enviar E-mail"</b>.
+        <!--\nO usuário também poderá adicionar imagens a mensagem escrita, na opção "Selecionar Imagem" ou-->
+        <!--adcionar uma imagem hospedada em host externo, neste caso, o usuário deverá descrever o URL da-->
+        <!--devida imagem. -->
+
+    </string>
+
+    <string name="str_ajudagerenciar">Sobre Gerenciar Contatos</string>
+    <string name="texto_gerenciar">Na opção <b>"Gerenciar Contatos"</b> você poderá visualizar seus contatos cadastrados e
+    ainda alterá-los ou exclui-lós. Para isto basta apenas selecionar o contato que desejar modificar e será levado
+    a tela de alteração.
+    </string>
+
+
+    <!--############################### HINT ####################################-->
+
+    <string name="hint_mensagem">Corpo da mensagem</string>
+    <string name="hint_estado">Sigla ex: RJ,SP…</string>
+    <string name="descricao">Ver Senha</string>
+    <string name="title_activity_tela_grupos">TelaGrupos</string>
+
+
+</resources>
+

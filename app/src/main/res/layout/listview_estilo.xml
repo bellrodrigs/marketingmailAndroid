@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+
+    <GridLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="3"
+        android:rowCount="4">
+
+    <!--ESTE LAYOUT É PARA MODIFICAR A EXIBIÇÃO DOS CAMPOS DAS TABELAS ORDEM, ESTILO ETC....-->
+
+    <TextView
+        android:id="@+id/idcontato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:drawableLeft="@drawable/profile"
+        android:text="@string/str_id"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+
+        android:id="@+id/nomecontato"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_gravity="start"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_nome"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/telefone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:text="@string/str_telefone"
+
+
+        android:textStyle="bold" />
+
+
+    <TextView
+
+        android:id="@+id/cidade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="left"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        android:text="@string/str_cidade"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/str_email"
+        android:textStyle="bold" />
+
+
+    <TextView
+
+
+        android:id="@+id/celular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/str_celular"
+
+        android:textStyle="bold" />
+
+
+    <TextView
+
+
+        android:id="@+id/grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/str_grupo"
+        android:textStyle="bold" />
+
+</GridLayout>
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="130dp"-->
+        <!--android:layout_gravity="end"-->
+
+        <!--&gt;-->
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/btn_levaemail"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:clickable="true"-->
+
+            <!--android:scaleType="center"-->
+            <!--android:background="?android:attr/selectableItemBackgroundBorderless"-->
+            <!--android:src="@drawable/emailcontato"-->
+
+            <!--/>-->
+
+    <!--</FrameLayout>-->
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/btn_levaemail"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+
+            <!--android:layout_gravity="end"-->
+            <!--android:background="?android:attr/selectableItemBackgroundBorderless"-->
+            <!--android:src="@drawable/emailcontato" />-->
+    <!--</FrameLayout>-->
+
+
+
+</RelativeLayout>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaEmail"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="12dp"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logo3" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="@string/str_usaemail"
+                    android:textAlignment="center"
+                    android:textColor="@color/cor_texto"
+                    android:textSize="29sp"
+                    android:textStyle="bold"
+
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="280dp"
+                    android:src="@drawable/smartphone" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/str_emailusuario"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edEmailUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cor_editartexto"
+                android:inputType="textEmailAddress" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/str_senhausuario"
+                android:textSize="18sp" />
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:passwordToggleContentDescription="@string/descricao"
+                app:passwordToggleEnabled="true"
+                app:passwordToggleDrawable="@drawable/eye"
+                android:id="@+id/senhaemail"
+                app:errorEnabled="true"
+
+                >
+
+             <EditText
+                android:id="@+id/edSenhaUusuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cor_editartexto"
+                android:inputType="textPassword"
+
+                />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+
+                android:text="@string/str_enviarpara"
+                android:textSize="18sp" />
+
+            <EditText
+
+                android:id="@+id/edEmail"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cor_editartexto"
+                android:inputType="textEmailAddress" />
+
+
+            <!--<Switch-->
+                <!--android:id="@+id/switchtodos"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:text="@string/str_switch1"-->
+                <!--android:textOff=""-->
+                <!--android:textOn=""-->
+
+                <!--/>-->
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content">-->
+
+
+                <!--<Switch-->
+                    <!--android:id="@+id/switchgrupo"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginBottom="15dp"-->
+                    <!--android:text="@string/str_switch2"-->
+                    <!--android:textOff=""-->
+                    <!--android:textOn="" />-->
+
+                <!--<Spinner-->
+                    <!--android:id="@+id/SP_grupo"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="end">-->
+
+
+                <!--</Spinner>-->
+
+            <!--</FrameLayout>-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/str_assunto"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edAssunto"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@color/cor_editartexto"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+
+                android:text="@string/str_mensagem"
+                android:textSize="18sp" />
+
+
+            <EditText
+                android:id="@+id/edMensagem"
+                android:layout_width="match_parent"
+                android:layout_height="105sp"
+                android:layout_marginBottom="21dp"
+                android:background="@color/cor_editartexto"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:hint="@string/hint_mensagem"
+                />
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="2dp"-->
+            <!--android:textSize="15sp"-->
+            <!--android:text="@string/str_imagem" />-->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <!--<ImageButton-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="?android:attr/selectableItemBackgroundBorderless"-->
+                <!--android:paddingStart="10dp"-->
+                <!--android:src="@drawable/image" />-->
+
+
+                <Button
+                    android:id="@+id/btn_enviaremail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginEnd="21dp"
+                    android:drawableRight="@drawable/iconeenvia"
+                    android:drawablePadding="8dp"
+                    android:text="@string/str_enviar" />
+
+
+            </RelativeLayout>
+
+            <ProgressBar
+                android:id="@+id/progresso"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaTermo"
+    android:orientation="vertical"
+    android:background="@drawable/fundo1"
+    android:padding="12dp"
+    >
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo3"
+        android:layout_marginTop="10dp"
+        />
+    <!--_________Texto Ao Utilizar esta plataforma_________-->
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+
+      android:text="@string/str_utilizar"
+      android:textSize="17sp"
+
+      android:layout_marginTop="20dp"
+      android:layout_marginBottom="12dp"
+
+
+      />
+</LinearLayout>
+    </ScrollView>
+
+    <!--___________Termos de Uso dentro do Scroll__________-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+
+        android:layout_marginBottom="20dp"
+        android:background="@color/cor_termosdeuso"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/str_termodeuso"
+
+
+            />
+
+
+    </ScrollView>
+
+    <!--______________CheckBox Concordo_______________-->
+
+    <CheckBox
+    android:id="@+id/cb_concordo"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text="@string/str_concordo"
+    android:checked="false"
+
+    android:layout_marginBottom="35dp"
+
+    android:buttonTint="@color/cor_checkbox"
+    />
+
+    <!--______________Botão_______________-->
+
+    <Button
+        android:id="@+id/btn_continuar"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:layout_marginBottom="5dp"
+
+        android:paddingEnd="40dp"
+        android:paddingStart="40dp"
+
+        android:text="@string/btn_continuar"
+        android:drawableEnd="@drawable/iconeentrar"
+        android:drawablePadding="5dp"
+        />
+
+
+
+
+
+
+</LinearLayout>
